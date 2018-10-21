@@ -1,0 +1,22 @@
+<h1> count </h1>
+
+{{fulltext}}
+<br/>
+<h1>there are {{count}} words in your text</h1>
+
+<h1>there are {{count1}} is in your text</h1>
+
+<h1>Average word length is : {{avg}}</h1>
+<br/>
+
+<h1>word to be replaced</h1>
+<textarea cols="30"rows="1"name="replace1"></textarea>
+
+<h1>replace by</h1>
+<form action="{% url 'result'%}"></form>
+<textarea cols="30"rows="1"name="replace2"></textarea>
+<br/>
+<input type="submit"value="replace"/>
+
+
+
